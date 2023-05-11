@@ -81,3 +81,23 @@ span.collab {
   font-weight:bold;
   color:#328fa8;
 }
+
+
+.hoverZoomLink {
+  /* position: relative; */
+  margin: auto;
+  overflow: hidden;
+  /* width: 540px; */
+}
+.hoverZoomLink img {
+  /* max-width: 100%;
+  transition: all 0.3s;
+  display: block;
+  width: 100%;
+  height: auto; */
+  transform: scale(1);
+}
+
+.hoverZoomLink:hover img {
+  transform: scale(1.1);
+}
